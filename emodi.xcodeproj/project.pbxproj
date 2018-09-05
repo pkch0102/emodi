@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520539D02126EBB6000CC359 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520539CF2126EBB6000CC359 /* CategoryCell.swift */; };
+		520539D2212A86B9000CC359 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520539D1212A86B9000CC359 /* CategoryViewController.swift */; };
+		520539D4212A8C12000CC359 /* EmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520539D3212A8C12000CC359 /* EmotionViewController.swift */; };
+		5263EF262123121A006028E6 /* TopTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263EF252123121A006028E6 /* TopTableCell.swift */; };
+		52AB2A872132377300277F91 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB2A862132377300277F91 /* WriteViewController.swift */; };
+		52AB2A89213245FD00277F91 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB2A88213245FD00277F91 /* DetailViewController.swift */; };
+		52E76E79211FE18100BCEE92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E76E78211FE18100BCEE92 /* AppDelegate.swift */; };
+		52E76E7B211FE18100BCEE92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E76E7A211FE18100BCEE92 /* ViewController.swift */; };
+		52E76E7E211FE18100BCEE92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E76E7C211FE18100BCEE92 /* Main.storyboard */; };
+		52E76E81211FE18100BCEE92 /* emodi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52E76E7F211FE18100BCEE92 /* emodi.xcdatamodeld */; };
+		52E76E83211FE18200BCEE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E76E82211FE18200BCEE92 /* Assets.xcassets */; };
+		52E76E86211FE18200BCEE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E76E84211FE18200BCEE92 /* LaunchScreen.storyboard */; };
+		52E76E8E2122F1FF00BCEE92 /* EmotionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E76E8D2122F1FF00BCEE92 /* EmotionTableCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		520539CF2126EBB6000CC359 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		520539D1212A86B9000CC359 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		520539D3212A8C12000CC359 /* EmotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionViewController.swift; sourceTree = "<group>"; };
+		5263EF252123121A006028E6 /* TopTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableCell.swift; sourceTree = "<group>"; };
+		52AB2A862132377300277F91 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		52AB2A88213245FD00277F91 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		52E76E75211FE18100BCEE92 /* emodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emodi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E76E78211FE18100BCEE92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52E76E7A211FE18100BCEE92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52E76E7D211FE18100BCEE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52E76E80211FE18100BCEE92 /* emodi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = emodi.xcdatamodel; sourceTree = "<group>"; };
+		52E76E82211FE18200BCEE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52E76E85211FE18200BCEE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52E76E87211FE18200BCEE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E76E8D2122F1FF00BCEE92 /* EmotionTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionTableCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52E76E72211FE18000BCEE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52E76E6C211FE18000BCEE92 = {
+			isa = PBXGroup;
+			children = (
+				52E76E77211FE18100BCEE92 /* emodi */,
+				52E76E76211FE18100BCEE92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52E76E76211FE18100BCEE92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E76E75211FE18100BCEE92 /* emodi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52E76E77211FE18100BCEE92 /* emodi */ = {
+			isa = PBXGroup;
+			children = (
+				52E76E78211FE18100BCEE92 /* AppDelegate.swift */,
+				52E76E7A211FE18100BCEE92 /* ViewController.swift */,
+				52E76E7C211FE18100BCEE92 /* Main.storyboard */,
+				52E76E82211FE18200BCEE92 /* Assets.xcassets */,
+				52E76E84211FE18200BCEE92 /* LaunchScreen.storyboard */,
+				52E76E87211FE18200BCEE92 /* Info.plist */,
+				52E76E7F211FE18100BCEE92 /* emodi.xcdatamodeld */,
+				52E76E8D2122F1FF00BCEE92 /* EmotionTableCell.swift */,
+				5263EF252123121A006028E6 /* TopTableCell.swift */,
+				520539D3212A8C12000CC359 /* EmotionViewController.swift */,
+				520539CF2126EBB6000CC359 /* CategoryCell.swift */,
+				520539D1212A86B9000CC359 /* CategoryViewController.swift */,
+				52AB2A862132377300277F91 /* WriteViewController.swift */,
+				52AB2A88213245FD00277F91 /* DetailViewController.swift */,
+			);
+			path = emodi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52E76E74211FE18000BCEE92 /* emodi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E76E8A211FE18200BCEE92 /* Build configuration list for PBXNativeTarget "emodi" */;
+			buildPhases = (
+				52E76E71211FE18000BCEE92 /* Sources */,
+				52E76E72211FE18000BCEE92 /* Frameworks */,
+				52E76E73211FE18000BCEE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emodi;
+			productName = emodi;
+			productReference = 52E76E75211FE18100BCEE92 /* emodi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52E76E6D211FE18000BCEE92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "박기찬";
+				TargetAttributes = {
+					52E76E74211FE18000BCEE92 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 52E76E70211FE18000BCEE92 /* Build configuration list for PBXProject "emodi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52E76E6C211FE18000BCEE92;
+			productRefGroup = 52E76E76211FE18100BCEE92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E76E74211FE18000BCEE92 /* emodi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52E76E73211FE18000BCEE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E76E86211FE18200BCEE92 /* LaunchScreen.storyboard in Resources */,
+				52E76E83211FE18200BCEE92 /* Assets.xcassets in Resources */,
+				52E76E7E211FE18100BCEE92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E76E71211FE18000BCEE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AB2A872132377300277F91 /* WriteViewController.swift in Sources */,
+				520539D4212A8C12000CC359 /* EmotionViewController.swift in Sources */,
+				5263EF262123121A006028E6 /* TopTableCell.swift in Sources */,
+				52E76E8E2122F1FF00BCEE92 /* EmotionTableCell.swift in Sources */,
+				520539D2212A86B9000CC359 /* CategoryViewController.swift in Sources */,
+				52E76E7B211FE18100BCEE92 /* ViewController.swift in Sources */,
+				52E76E81211FE18100BCEE92 /* emodi.xcdatamodeld in Sources */,
+				52AB2A89213245FD00277F91 /* DetailViewController.swift in Sources */,
+				52E76E79211FE18100BCEE92 /* AppDelegate.swift in Sources */,
+				520539D02126EBB6000CC359 /* CategoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52E76E7C211FE18100BCEE92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E76E7D211FE18100BCEE92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52E76E84211FE18200BCEE92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E76E85211FE18200BCEE92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52E76E88211FE18200BCEE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52E76E89211FE18200BCEE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52E76E8B211FE18200BCEE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 365949Z6ZQ;
+				INFOPLIST_FILE = emodi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pkc.emodi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52E76E8C211FE18200BCEE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 365949Z6ZQ;
+				INFOPLIST_FILE = emodi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pkc.emodi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E76E70211FE18000BCEE92 /* Build configuration list for PBXProject "emodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E76E88211FE18200BCEE92 /* Debug */,
+				52E76E89211FE18200BCEE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E76E8A211FE18200BCEE92 /* Build configuration list for PBXNativeTarget "emodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E76E8B211FE18200BCEE92 /* Debug */,
+				52E76E8C211FE18200BCEE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52E76E7F211FE18100BCEE92 /* emodi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52E76E80211FE18100BCEE92 /* emodi.xcdatamodel */,
+			);
+			currentVersion = 52E76E80211FE18100BCEE92 /* emodi.xcdatamodel */;
+			path = emodi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52E76E6D211FE18000BCEE92 /* Project object */;
+}
